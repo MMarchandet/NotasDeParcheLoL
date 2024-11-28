@@ -1,1 +1,56 @@
-d
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+:root{
+    --colorFondo:#0a1428;
+}
+
+/*body{
+    background-color: var(--colorFondo);
+}*/
+
+.section_principal{
+    margin-bottom: 112px;
+}
+
+.img_principal{
+    width: 100%;
+}
+
+.contenedor_debajo_imgpr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 32px;
+    font-family: "Beaufort for LOL Bold";
+    margin: 40px 0;
+}
+
+.desc{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.separador{
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.minicositas{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.parr{
+    font-size: 16px;
+}
